@@ -1,5 +1,8 @@
 # This Project is made by Shazzad Hossen
 
+## LIVE URL
+### https://sz-smart-shop.netlify.app/
+
 
 
 ## Available Scripts
