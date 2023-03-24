@@ -11,7 +11,7 @@ const Cart = () => {
 
         {data.map(data=><Cartitem key={v4()} data={data}></Cartitem>)}
 
-            <p className='bg-[#ffd7a2] text-end p-6 font-semibold' >Total Items : {data.length} <br />Total Price : {tPrice}</p>
+            <p className='bg-[#ffd7a2] text-end p-6 font-semibold' >Total Items : {data.length} <br />Total Price : ${tPrice}</p>
 
         </menu>
     );
