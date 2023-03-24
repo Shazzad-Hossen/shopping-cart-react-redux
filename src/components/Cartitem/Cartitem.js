@@ -10,7 +10,7 @@ const Cartitem = ({data}) => {
     const dispatch= useDispatch();
     return (
         <div className='bg-white p-4 border-b-2 flex justify-between px-8 items-center'>
-            <div className=" flex gap-10 items-center">
+            <div className=" flex gap-10 items-center flex-col sm:flex-row">
             <img className='cartImg' src={data.thumbnail} alt="" />
             <div className=" font-bold text-xl max-w-[300px] text-left">{data.title}</div>
             </div>

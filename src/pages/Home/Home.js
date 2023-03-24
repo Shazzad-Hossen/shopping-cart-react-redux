@@ -28,7 +28,7 @@ const Home = () => {
             
             <div className="py-10 flex  justify-center">
 
-            <div className="grid grid-cols-4 gap-x-[50px] gap-y-[50px] ">
+            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-x-[50px] gap-y-[50px] ">
             {data.map(data=><Card key={data.id} data={data}></Card>)}
             </div>
             </div>
